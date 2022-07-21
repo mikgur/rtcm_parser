@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rtcm_parser"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail Gurevich <gurevich3004@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+pyrtcm = "^0.2.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
